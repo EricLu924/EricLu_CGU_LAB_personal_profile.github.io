@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Eric Lu - Personal Profile & Portfolio">
+    <title>Eric Lu  | Personal Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Fira+Code:wght@400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="cursor-glow" id="cursor-glow"></div>
+
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo" style="text-decoration: none;">&lt;Eric Lu 🎧&gt;</a>
+                
+                <div class="nav-links">
+                    <a href="#experience" data-lang="nav_expertise">Expertise</a>
+                    <a href="#career" data-lang="nav_career">Career</a>
+                    <a href="#projects" data-lang="nav_achievements">Achievements</a>
+                    <a href="#contact" data-lang="nav_contact">Contact</a>
+                    
+                    <button id="lang-switch" class="lang-btn">
+                        <span class="lang-opt active" data-target="en">EN</span>
+                        <span class="separator">|</span>
+                        <span class="lang-opt" data-target="zh">繁中</span>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero fade-in-section" id="about">
+            <div class="container">
+                <div class="hero-content">
+                    <p style="color: var(--accent-primary); margin-bottom: 1rem; font-family: 'Fira Code', monospace;" data-lang="hero_greeting">Hi, I'm Eric Lu!</p>
+                    <h1 data-lang="hero_title">Train models, not your liver.</h1>
+                    <p data-lang="hero_desc">
+                        I’m a member of the CGU AICV Lab and an AI systems engineer. My work mainly revolves around<br> image recognition and system optimization.
+                    </p>
+                    <a href="#experience" class="cta-btn" data-lang="hero_cta">View Info</a>
+                </div>
+
+                <div class="hero-character" id="hero-char">
+                    <div class="char-face">
+                        <div class="char-eye-container">
+                            <div class="char-eye">
+                                <div class="char-pupil"></div>
+                            </div>
+                            <div class="char-eye">
+                                <div class="char-pupil"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </section>
+
+        <section id="experience" class="fade-in-section">
+            <div class="container">
+                <h2 data-lang="section_expertise">Areas of Expertise</h2>
+                <div class="grid">
+                    <div class="card">
+                        <h3 data-lang="exp_research_title">Research Interests</h3>
+                        <ul class="skill-list" data-lang="exp_research_desc">
+                            <li>Image Recognition</li>
+                            <li>Object Detection</li>
+                            <li>Facial Emotion Recognition</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3 data-lang="exp_areas_title">Skills and Interests</h3>
+                        <ul class="skill-list" data-lang="exp_areas_desc">
+                            <li>System Development</li>
+                            <li>Web Scraping</li>
+                            <li>Data Cleaning</li>
+                            <li>Automation Workflows</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="career" class="fade-in-section">
+            <div class="container">
+                <h2 data-lang="section_career">Professional Roadmap</h2>
+                <div class="timeline-wrapper">
+                    <div class="progress-line-bg"></div>
+                    <div class="progress-line-fill"></div>
+                    
+                    <div class="timeline-steps">
+                        <div class="timeline-step">
+                            <div class="step-marker-container">
+                                <div class="step-marker"></div>
+                            </div>
+                            <div class="step-content">
+                                <span class="step-title" data-lang="job_crawler_title">Crawler Engineer</span>
+                                <p class="step-desc" data-lang="job_crawler_desc">Specializing in high-efficiency data collection, cleaning, and automated data pipelines.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-step">
+                            <div class="step-marker-container">
+                                <div class="step-marker"></div>
+                            </div>
+                            <div class="step-content">
+                                <span class="step-title" data-lang="job_fs_title">Full Stack Engineer</span>
+                                <p class="step-desc" data-lang="job_fs_desc">Integrating frontend and backend architectures to optimize system performance and UX.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-step">
+                            <div class="step-marker-container">
+                                <div class="step-marker"></div>
+                            </div>
+                            <div class="step-content">
+                                <span class="step-title" data-lang="job_ai_title">AI Engineer</span>
+                                <p class="step-desc" data-lang="job_ai_desc">Dedicated to Computer Vision and model applications, solving complex recognition problems.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="fade-in-section">
+            <div class="container">
+                <h2 data-lang="section_achievements">Achievements & Projects</h2>
+                <div class="grid">
+                    <div class="card">
+                        <h3 data-lang="card_awards_title">Awards & Honors</h3>
+                        <div class="tech-stack">
+                            <span class="tech-tag" data-lang="tag_erps">ERPS 2024 Honorable Mention</span>
+                            <span class="tech-tag" data-lang="tag_grad">Excellent Award</span>
+                            <span class="tech-tag" data-lang="tag_inn">Innovation</span>
+                        </div>
+                        <p class="card-desc" data-lang="card_awards_desc">Received Honorable Mention in the 2024 ERPS Society E-System Innovation Competition and Excellent Award for the University Graduation Research Project.</p>
+                    </div>
+                    <div class="card">
+                        <h3 data-lang="card_research_title">Research & Competitions</h3>
+                        <div class="tech-stack">
+                            <span class="tech-tag" data-lang="tag_nstc">NSTC Research Program</span>
+                            <span class="tech-tag" data-lang="tag_comp">Info Service Competition</span>
+                            <span class="tech-tag" data-lang="tag_exh">Joint Exhibition</span>
+                        </div>
+                        <p class="card-desc" data-lang="card_research_desc">Participated in the 2023 NSTC Research Program and the 28th/29th Info Service Innovation Competitions. Represented the department in the Exhibition.</p>
+                    </div>
+                    <div class="card">
+                        <h3 data-lang="card_community_title">Community Service</h3>
+                        <div class="tech-stack">
+                            <span class="tech-tag" data-lang="tag_edu">Course Material Prod.</span>
+                            <span class="tech-tag" data-lang="tag_cs">CS Education</span>
+                            <span class="tech-tag" data-lang="tag_vol">Volunteer</span>
+                        </div>
+                        <p class="card-desc" data-lang="card_community_desc">Assisted Boyo Foundation with online course materials and provided CS education support for schools in Nanao Township, Yilan.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="fade-in-section" style="text-align: center;">
+            <div class="container">
+                <h2 data-lang="contact_title">Ready for the next system and model？</h2>
+                <p data-lang="contact_desc" style="color: var(--text-secondary); margin-bottom: 2rem; max-width: 500px; margin-left: auto; margin-right: auto;">
+                    Whether it's academic research collaboration or<br> system development, feel free to contact me anytime.
+                </p>
+                <a href="mailto:M1361008@cgu.edu.tw" class="cta-btn" data-lang="contact_btn">Email Me</a>
+            </div>
+        </section>
+    </main>
+
+    <a href="#" class="scroll-up-btn" aria-label="Scroll to top">↑</a>
+    
+    <a href="#bottom" class="scroll-down-btn" aria-label="Scroll to bottom">↓</a>
+
+    <footer id="bottom">
+        <div class="container">
+            <p>Here’s a little life hack I’d like to share: when you’re feeling sleepy, besides grabbing an iced Americano, try scaring yourself—it works surprisingly well.</p>
+            <p>&copy; 2026 Eric Lu. Built with precision.</p>        
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
